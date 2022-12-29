@@ -1,0 +1,10 @@
+{
+  "Flex": 5,
+  "TextBox": 13,
+  "Div": 10,
+  "Link": 5,
+  "Image": 5,
+  "Button": 2,
+  "Icon": 1,
+  "UnorderedList": 1
+}

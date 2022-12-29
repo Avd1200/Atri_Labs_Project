@@ -1,0 +1,11 @@
+{
+  "logo_image.svg": {
+    "mime": "image/svg+xml"
+  },
+  "image2.jpeg": {
+    "mime": "image/jpeg"
+  },
+  "right-arrow.png": {
+    "mime": "image/png"
+  }
+}

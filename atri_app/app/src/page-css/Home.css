@@ -1,0 +1,165 @@
+.p-Home.NavbarFlex1 {
+display: flex;
+justify-content: space-between;
+padding-top: 35px;
+padding-left: ;
+padding-right: ;
+margin-left: 101px;
+margin-right: 101px;
+align-items: center;
+}
+.p-Home.Div1 {
+font-size: 16px;
+font-family: IBM Plex Sans;
+color: ;
+position: relative;
+}
+.p-Home.MainContent {
+display: flex;
+margin-top: ;
+justify-content: space-between;
+padding-left: ;
+padding-right: ;
+margin-left: 101px;
+margin-right: 101px;
+padding-top: 70px;
+}
+.p-Home.Div2 {
+font-family: IBM Plex Sans;
+font-size: ;
+padding-top: 30px;
+}
+.p-Home.Div4 {
+font-family: ;
+font-size: 22px;
+margin-top: 25px;
+margin-bottom: 40px;
+color: #666666;
+}
+.p-Home.Div5 {
+font-family: ;
+font-size: 75px;
+line-height: 82.5px;
+}
+.p-Home.Flex3 {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+column-gap: 20px;
+position: relative;
+}
+.p-Home.Div8 {
+max-width: 148px;
+max-height: 58px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 30px;
+padding-left: 30px;
+background-color: #000000;
+color: #ffffff;
+font-size: 18px;
+font-family: ;
+z-index: 1;
+}
+.p-Home.Flex4 {
+display: flex;
+align-items: center;
+column-gap: 3px;
+justify-content: flex-start;
+}
+.p-Home.Div3 {
+;
+}
+.p-Home.NavTextBox1 {
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-weight: ;
+}
+.p-Home.Image4 {
+;
+}
+.p-Home.Link1 {
+padding-right: ;
+outline-width: 0px;
+color: #000000;
+}
+.p-Home.Link2 {
+padding-right: 40px;
+outline-width: 0px;
+color: #000000;
+}
+.p-Home.Link3 {
+padding-right: 40px;
+font-size: ;
+outline-width: 0px;
+color: #000000;
+}
+.p-Home.Link4 {
+padding-right: 40px;
+background-position-x: 16px;
+outline-width: 0px;
+color: #000000;
+}
+.p-Home.Link5 {
+padding-right: 40px;
+font-size: ;
+outline-width: 0px;
+color: #000000;
+}
+.p-Home.Image5 {
+max-width: 20px;
+max-height: 20px;
+align-self: auto;
+padding-top: ;
+margin-top: ;
+line-height: ;
+margin-bottom: ;
+position: absolute;
+}
+.p-Home.Div6 {
+position: relative;
+visibility: hidden;
+}
+.p-Home.TextBox8 {
+font-size: ;
+margin-top: ;
+}
+.p-Home.TextBox9 {
+;
+}
+.p-Home.TextBox3 {
+line-height: ;
+}
+.p-Home.TextBox5 {
+;
+}
+.p-Home.TextBox6 {
+;
+}
+.p-Home.Div10 {
+position: absolute;
+max-width: 148px;
+max-height: 58px;
+background-color: #d86969;
+visibility: hidden;
+}
+.p-Home.TextBox10 {
+box-sizing: content-box;
+align-self: auto;
+padding-left: ;
+font-size: 18px;
+}
+.p-Home.TextBox11 {
+font-family: ;
+font-size: 18px;
+}
+.p-Home.Image3 {
+max-width: 20px;
+max-height: 20px;
+color: #000000;
+}
+.p-Home.Image2 {
+min-width: ;
+max-width: 400px;
+max-height: ;
+}
