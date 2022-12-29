@@ -46,6 +46,15 @@ const desktopModeProps = {
     "Div1": {
       "callbacks": {}
     },
+    "Flex6": {
+      "callbacks": {}
+    },
+    "Flex7": {
+      "callbacks": {}
+    },
+    "Flex8": {
+      "callbacks": {}
+    },
     "MainContent": {
       "callbacks": {}
     },
@@ -82,6 +91,84 @@ const desktopModeProps = {
         ]
       }
     },
+    "Link1": {
+      "custom": {
+        "text": "",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link2": {
+      "custom": {
+        "text": "",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link3": {
+      "custom": {
+        "text": "",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link4": {
+      "custom": {
+        "text": "",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Link5": {
+      "custom": {
+        "text": "",
+        "url": "/"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image5": {
+      "custom": {
+        "alt": "No preview available",
+        "src": ""
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
     "Image4": {
       "custom": {
         "alt": "No preview available",
@@ -95,10 +182,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link1": {
+    "TextBox15": {
       "custom": {
-        "text": "Book a call",
-        "url": "/"
+        "text": "Blog"
       },
       "callbacks": {
         "onClick": [
@@ -108,10 +194,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link2": {
+    "TextBox16": {
       "custom": {
-        "text": "Blog",
-        "url": "/"
+        "text": "Projects"
       },
       "callbacks": {
         "onClick": [
@@ -121,10 +206,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link3": {
+    "TextBox17": {
       "custom": {
-        "text": "Services",
-        "url": "/"
+        "text": "Services"
       },
       "callbacks": {
         "onClick": [
@@ -134,10 +218,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link4": {
+    "TextBox18": {
       "custom": {
-        "text": "About",
-        "url": "/"
+        "text": "About"
       },
       "callbacks": {
         "onClick": [
@@ -147,10 +230,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Link5": {
+    "TextBox14": {
       "custom": {
-        "text": "Projects",
-        "url": "/"
+        "text": "Book a call"
       },
       "callbacks": {
         "onClick": [
@@ -160,7 +242,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image5": {
+    "Image6": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/right-arrow.png"

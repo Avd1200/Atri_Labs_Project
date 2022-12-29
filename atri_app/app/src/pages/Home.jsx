@@ -7,9 +7,9 @@ import {fetchPageProps} from "../utils/fetchPageProps"
 import { Flex } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
 import { Div } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
 import { TextBox } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
-import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
 import { Link } from "@atrilabs/react-component-manifests/src/manifests/Link/Link.tsx";
-import { useNavbarFlex1Cb, useDiv1Cb, useMainContentCb, useDiv2Cb, useDiv4Cb, useDiv5Cb, useFlex3Cb, useDiv8Cb, useFlex4Cb, useDiv3Cb, useNavTextBox1Cb, useImage4Cb, useLink1Cb, useLink2Cb, useLink3Cb, useLink4Cb, useLink5Cb, useImage5Cb, useDiv6Cb, useTextBox8Cb, useTextBox9Cb, useTextBox3Cb, useTextBox5Cb, useTextBox6Cb, useDiv10Cb, useTextBox10Cb, useTextBox11Cb, useImage3Cb, useImage2Cb } from "../page-cbs/Home";
+import { Image } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
+import { useNavbarFlex1Cb, useDiv1Cb, useFlex6Cb, useFlex7Cb, useFlex8Cb, useMainContentCb, useDiv2Cb, useDiv4Cb, useDiv5Cb, useFlex3Cb, useDiv8Cb, useFlex4Cb, useDiv3Cb, useNavTextBox1Cb, useLink1Cb, useLink2Cb, useLink3Cb, useLink4Cb, useLink5Cb, useImage5Cb, useImage4Cb, useTextBox15Cb, useTextBox16Cb, useTextBox17Cb, useTextBox18Cb, useTextBox14Cb, useImage6Cb, useDiv6Cb, useTextBox8Cb, useTextBox9Cb, useTextBox3Cb, useTextBox5Cb, useTextBox6Cb, useDiv10Cb, useTextBox10Cb, useTextBox11Cb, useImage3Cb, useImage2Cb } from "../page-cbs/Home";
 import "../page-css/Home.css";
 import "../custom/Home";
 
@@ -35,6 +35,15 @@ const NavbarFlex1Cb = useNavbarFlex1Cb()
 const Div1Props = useStore((state)=>state["Home"]["Div1"]);
 const Div1IoProps = useIoStore((state)=>state["Home"]["Div1"]);
 const Div1Cb = useDiv1Cb()
+const Flex6Props = useStore((state)=>state["Home"]["Flex6"]);
+const Flex6IoProps = useIoStore((state)=>state["Home"]["Flex6"]);
+const Flex6Cb = useFlex6Cb()
+const Flex7Props = useStore((state)=>state["Home"]["Flex7"]);
+const Flex7IoProps = useIoStore((state)=>state["Home"]["Flex7"]);
+const Flex7Cb = useFlex7Cb()
+const Flex8Props = useStore((state)=>state["Home"]["Flex8"]);
+const Flex8IoProps = useIoStore((state)=>state["Home"]["Flex8"]);
+const Flex8Cb = useFlex8Cb()
 const MainContentProps = useStore((state)=>state["Home"]["MainContent"]);
 const MainContentIoProps = useIoStore((state)=>state["Home"]["MainContent"]);
 const MainContentCb = useMainContentCb()
@@ -62,9 +71,6 @@ const Div3Cb = useDiv3Cb()
 const NavTextBox1Props = useStore((state)=>state["Home"]["NavTextBox1"]);
 const NavTextBox1IoProps = useIoStore((state)=>state["Home"]["NavTextBox1"]);
 const NavTextBox1Cb = useNavTextBox1Cb()
-const Image4Props = useStore((state)=>state["Home"]["Image4"]);
-const Image4IoProps = useIoStore((state)=>state["Home"]["Image4"]);
-const Image4Cb = useImage4Cb()
 const Link1Props = useStore((state)=>state["Home"]["Link1"]);
 const Link1IoProps = useIoStore((state)=>state["Home"]["Link1"]);
 const Link1Cb = useLink1Cb()
@@ -83,6 +89,27 @@ const Link5Cb = useLink5Cb()
 const Image5Props = useStore((state)=>state["Home"]["Image5"]);
 const Image5IoProps = useIoStore((state)=>state["Home"]["Image5"]);
 const Image5Cb = useImage5Cb()
+const Image4Props = useStore((state)=>state["Home"]["Image4"]);
+const Image4IoProps = useIoStore((state)=>state["Home"]["Image4"]);
+const Image4Cb = useImage4Cb()
+const TextBox15Props = useStore((state)=>state["Home"]["TextBox15"]);
+const TextBox15IoProps = useIoStore((state)=>state["Home"]["TextBox15"]);
+const TextBox15Cb = useTextBox15Cb()
+const TextBox16Props = useStore((state)=>state["Home"]["TextBox16"]);
+const TextBox16IoProps = useIoStore((state)=>state["Home"]["TextBox16"]);
+const TextBox16Cb = useTextBox16Cb()
+const TextBox17Props = useStore((state)=>state["Home"]["TextBox17"]);
+const TextBox17IoProps = useIoStore((state)=>state["Home"]["TextBox17"]);
+const TextBox17Cb = useTextBox17Cb()
+const TextBox18Props = useStore((state)=>state["Home"]["TextBox18"]);
+const TextBox18IoProps = useIoStore((state)=>state["Home"]["TextBox18"]);
+const TextBox18Cb = useTextBox18Cb()
+const TextBox14Props = useStore((state)=>state["Home"]["TextBox14"]);
+const TextBox14IoProps = useIoStore((state)=>state["Home"]["TextBox14"]);
+const TextBox14Cb = useTextBox14Cb()
+const Image6Props = useStore((state)=>state["Home"]["Image6"]);
+const Image6IoProps = useIoStore((state)=>state["Home"]["Image6"]);
+const Image6Cb = useImage6Cb()
 const Div6Props = useStore((state)=>state["Home"]["Div6"]);
 const Div6IoProps = useIoStore((state)=>state["Home"]["Div6"]);
 const Div6Cb = useDiv6Cb()
@@ -119,7 +146,9 @@ const Image2Cb = useImage2Cb()
 
   return (<>
   <Flex className="p-Home NavbarFlex1 bpt" {...NavbarFlex1Props} {...NavbarFlex1Cb} {...NavbarFlex1IoProps}>
+<Flex className="p-Home Flex6 bpt" {...Flex6Props} {...Flex6Cb} {...Flex6IoProps}>
 <Image className="p-Home Image4 bpt" {...Image4Props} {...Image4Cb} {...Image4IoProps}/>
+</Flex>
 <TextBox className="p-Home NavTextBox1 bpt" {...NavTextBox1Props} {...NavTextBox1Cb} {...NavTextBox1IoProps}/>
 <Div className="p-Home Div1 bpt" {...Div1Props} {...Div1Cb} {...Div1IoProps}>
 <Link className="p-Home Link4 bpt" {...Link4Props} {...Link4Cb} {...Link4IoProps}/>
@@ -129,6 +158,16 @@ const Image2Cb = useImage2Cb()
 <Link className="p-Home Link1 bpt" {...Link1Props} {...Link1Cb} {...Link1IoProps}/>
 <Image className="p-Home Image5 bpt" {...Image5Props} {...Image5Cb} {...Image5IoProps}/>
 </Div>
+<Flex className="p-Home Flex7 bpt" {...Flex7Props} {...Flex7Cb} {...Flex7IoProps}>
+<TextBox className="p-Home TextBox18 bpt" {...TextBox18Props} {...TextBox18Cb} {...TextBox18IoProps}/>
+<TextBox className="p-Home TextBox17 bpt" {...TextBox17Props} {...TextBox17Cb} {...TextBox17IoProps}/>
+<TextBox className="p-Home TextBox16 bpt" {...TextBox16Props} {...TextBox16Cb} {...TextBox16IoProps}/>
+<TextBox className="p-Home TextBox15 bpt" {...TextBox15Props} {...TextBox15Cb} {...TextBox15IoProps}/>
+<Flex className="p-Home Flex8 bpt" {...Flex8Props} {...Flex8Cb} {...Flex8IoProps}>
+<TextBox className="p-Home TextBox14 bpt" {...TextBox14Props} {...TextBox14Cb} {...TextBox14IoProps}/>
+<Image className="p-Home Image6 bpt" {...Image6Props} {...Image6Cb} {...Image6IoProps}/>
+</Flex>
+</Flex>
 </Flex>
 <Flex className="p-Home MainContent bpt" {...MainContentProps} {...MainContentCb} {...MainContentIoProps}>
 <Div className="p-Home Div2 bpt" {...Div2Props} {...Div2Cb} {...Div2IoProps}>

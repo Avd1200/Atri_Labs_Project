@@ -1,18 +1,37 @@
 .p-Home.NavbarFlex1 {
 display: flex;
 justify-content: space-between;
-padding-top: 35px;
+padding-top: 40px;
 padding-left: ;
 padding-right: ;
 margin-left: 101px;
 margin-right: 101px;
 align-items: center;
+font-family: ;
+column-gap: ;
 }
 .p-Home.Div1 {
 font-size: 16px;
 font-family: IBM Plex Sans;
 color: ;
 position: relative;
+display: none;
+visibility: hidden;
+}
+.p-Home.Flex6 {
+display: flex;
+}
+.p-Home.Flex7 {
+display: flex;
+column-gap: 35px;
+font-family: IBM Plex Sans;
+font-size: 16px;
+align-items: stretch;
+font-weight: 500;
+}
+.p-Home.Flex8 {
+display: flex;
+column-gap: 2px;
 }
 .p-Home.MainContent {
 display: flex;
@@ -30,16 +49,18 @@ font-size: ;
 padding-top: 30px;
 }
 .p-Home.Div4 {
-font-family: ;
+font-family: IBM Plex Sans;
 font-size: 22px;
 margin-top: 25px;
 margin-bottom: 40px;
 color: #666666;
+font-weight: 500;
 }
 .p-Home.Div5 {
 font-family: ;
 font-size: 75px;
 line-height: 82.5px;
+font-weight: 700;
 }
 .p-Home.Flex3 {
 display: flex;
@@ -71,12 +92,9 @@ justify-content: flex-start;
 ;
 }
 .p-Home.NavTextBox1 {
-font-family: IBM Plex Sans;
-font-size: 18px;
+font-family: ;
+font-size: ;
 font-weight: ;
-}
-.p-Home.Image4 {
-;
 }
 .p-Home.Link1 {
 padding-right: ;
@@ -116,6 +134,34 @@ line-height: ;
 margin-bottom: ;
 position: absolute;
 }
+.p-Home.Image4 {
+padding-right: ;
+margin-right: 100px;
+}
+.p-Home.TextBox15 {
+padding-right: ;
+margin-right: ;
+}
+.p-Home.TextBox16 {
+padding-right: ;
+margin-right: ;
+}
+.p-Home.TextBox17 {
+padding-right: ;
+margin-right: ;
+}
+.p-Home.TextBox18 {
+padding-right: ;
+margin-left: ;
+margin-right: ;
+}
+.p-Home.TextBox14 {
+margin-right: ;
+}
+.p-Home.Image6 {
+max-width: 20px;
+max-height: 20px;
+}
 .p-Home.Div6 {
 position: relative;
 visibility: hidden;
@@ -148,10 +194,13 @@ box-sizing: content-box;
 align-self: auto;
 padding-left: ;
 font-size: 18px;
+font-family: IBM Plex Sans;
+font-weight: 500;
 }
 .p-Home.TextBox11 {
-font-family: ;
+font-family: IBM Plex Sans;
 font-size: 18px;
+font-weight: 700;
 }
 .p-Home.Image3 {
 max-width: 20px;
